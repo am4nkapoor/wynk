@@ -1,0 +1,194 @@
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  user-select: none;
+  background-color: #eee;
+  overflow: hidden;
+  background: radial-gradient(rgb(255, 255, 255), rgb(200, 200, 200));
+}
+
+.container {
+  position: relative;
+  width: 27%;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  top: 20px;
+  left: 10px;
+  position: relative;
+}
+
+.img-responsive{
+  width: 40%;
+  height: auto;
+  top: 0px;
+  padding: 10px;
+  left: 20px;
+}
+
+.eyes{
+  font-size: 29px;
+  color: #fff;
+  right: 56px;
+  opacity: 0.7;
+  top: 10px;
+}
+
+.views{
+  top: 17px;
+  right: 16px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.comments{
+  bottom: 76px;
+  color: #fff;
+  padding: 10px;
+}
+
+.m-live{
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.opa{
+  opacity: 0.5;
+}
+
+.opa-7{
+  opacity: 0.7;
+}
+
+.opa-light{
+  opacity: 0.4;
+}
+
+.hearContainer {
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  left:88%;
+  bottom: 69px;
+  overflow: visible;
+}
+
+.below-heart{
+  bottom: -14px;
+  right: 6px;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.clapContainer {
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  left: 75%;  
+  bottom: 71px;
+  overflow: visible;
+}
+
+.below-clap{
+  bottom: -15px;
+  right: 2px;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.fottor{
+  bottom: 15px;
+  padding: 10px;
+}
+
+.btn{
+  background-color: black;
+  border-radius: 26px;
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.7;
+  outline: none;
+}
+
+.bigHeart {
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, 0%);
+  cursor: pointer;
+}
+
+.hearts {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+}
+
+.circ {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-4px, 0px);
+  cursor: pointer;
+  border: 4px solid rgb(150, 30, 20);
+}
+
+.bigClap {
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, 0%);
+  cursor: pointer;
+}
+
+.clapcirc {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-4px, 0px);
+  cursor: pointer;
+  border: 4px solid #FBD554;
+}
+
+.position-absolute{
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .fottor{
+    padding: 0px;
+  }
+  .img-background{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .btn {
+    padding: 6px 11px;
+  }
+}
